@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="images/logo-icon.png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <title>Nitya Buch</title>
+</head>
+<body style="background-color: #0a0a0a;">
+<main>
+
+    <div class="container">
+
+        <div class="index">
+            <video id="myVideo" src="videos/logo1.mp4" autoplay muted></video>
+            <a href="index.html"><img src="images/logo-red.png" alt="logo" id="indexLogo" style="visibility: hidden;" class="logo-appear"></a>       
+            <!-- <img src="images/red.png" alt="foreground" id="foreground"> -->
+            <img src="images/name.png" alt="foreground" id="name" class="logo-appear" style="visibility: hidden;">
+        </div>
+
+        <div class="index-header-menu tv-row" id="indexMenu" style="visibility: hidden;" class="logo-appear">
+            <h1 class="hidden">menu</h1>
+
+            <div><a href="about.html">ABOUT</a></div>
+
+            <div><a href="portfolio.html">PORTFOLiO</a></div>
+
+            <div><a href="contact.html">CONTACT</a></div>
+
+        </div>
+        
+        <!-- <div class="vertical-menu tv-display row">
+            <h1 class="hidden">menu</h1>
+            <div class="rotate"><p></p><a href="portfolio.html">3D MODELING</a></div>
+            <div class="rotate"><a href="portfolio.html">MOTION DESIGN</a></div>
+            <div class="rotate"><a href="portfolio.html">GRAPHIC DESIGN</a></div>
+        </div> -->
+        
+    </div>
+
+</main>
+<script>
+
+    setTimeout(function(){
+    document.getElementById('indexLogo').style.visibility = "visible";
+    },6000);
+    setTimeout(function(){
+    document.getElementById('indexMenu').style.visibility = "visible";
+    },6000);
+    setTimeout(function(){
+    document.getElementById('name').style.visibility = "visible";
+    },6000);
+    
+</script>
+</body>
+</html>
