@@ -808,7 +808,7 @@ padding-bottom: 13vw;
     }
 
     p {
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 
     /* h1 {
@@ -1317,15 +1317,15 @@ padding-bottom: 13vw;
 @media screen and (max-width: 586px) {
 
     p {
-        font-size: 4.5vw;
+        font-size: 4vw;
     }
 
     h2 {
-        font-size: 5vw;
+        font-size: 4.5vw;
     }
 
     h1 {
-        font-size: 6vw;
+        font-size: 5vw;
     }
 
 }
