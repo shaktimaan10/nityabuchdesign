@@ -337,6 +337,11 @@ p, label, input, button {
 
 /* ......................... Instruments div ......................... */
 
+.insturments {
+    background-color: 0c0c0c;
+    padding-top7.5vw;
+}
+
 .instruments-image {
     height: 100%;
 }
