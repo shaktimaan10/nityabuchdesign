@@ -231,7 +231,7 @@ p, label, input, button {
 /*     min-width: 50px; */
     position: fixed;
     top: 4.5vw;
-    left: 45vw;
+    left: 46vw;
 }
 
 .index-header-menu {
@@ -249,8 +249,6 @@ p, label, input, button {
 
 .chess {
     scroll-behavior: auto;
-    padding-top: 10vw;
-    background-color :#191919;
 }
 
 .chess .description p, .chess .description h1, .chess .description h2 {
@@ -338,11 +336,6 @@ p, label, input, button {
 }
 
 /* ......................... Instruments div ......................... */
-
-.instruments {
-    padding-top: 10vw;
-    background-color: #0d0d0d;
-}
 
 .instruments-image {
     height: 100%;
@@ -815,7 +808,15 @@ padding-bottom: 13vw;
     }
 
     p {
-        font-size: 2.5vw;
+        font-size: 4vw;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 5vw;
     }
 
     .header-menu {
@@ -832,42 +833,10 @@ padding-bottom: 13vw;
     } */
 
     .index-header-menu {
-        width: 100vw;
-        /* right: 10vw; */
-        position: absolute;
-        top: 55vw;
-        right: 0vw;    
+        width: 80vw;
+        right: 10vw;
     }
 
-    #hamburger {
-    position: absolute;
-    top: 40vw;
-    right: 44.75vw;
-    width: 12.5vw;
-    cursor: pointer;
-    }
-
-    #indexLogo {
-        width: 25vw;
-    /*     min-width: 50px; */
-        position: fixed;
-        top: 15vw;
-        left: 38vw;
-    }
-
-    .index video {
-        position: absolute;
-        top: 0;
-        left: 0vw;
-        width: 100vw;
-    }
-
-    #name {
-        top: 35vw;
-        width: 60vw;
-        left: 20vw;
-    }
-    
     .vertical-menu {
         top: 12vw;
     }
