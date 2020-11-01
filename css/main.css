@@ -106,7 +106,7 @@ p, label, input, button {
     border: 2px solid rgba(255,255,255,0.4);
     width: 14vw;
     padding: 1.5vw 2vw;
-    background: rgba(147, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     line-height: 1.4rem;
     /* color: white; */
     text-align: center;
@@ -721,7 +721,7 @@ padding-bottom: 13vw;
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(147,0,0,0.6);
     top: 25vw;
     /* width: auto; */
     /* margin-top: -22px; */
@@ -746,7 +746,7 @@ padding-bottom: 13vw;
   
   /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    /* background-color: rgba(255,255,255,0.2); */
+    background-color: rgba(255,255,255,0.8);
     color: #930000;
 }
 
