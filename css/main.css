@@ -721,7 +721,7 @@ padding-bottom: 13vw;
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    background-color: rgba(147,0,0,0.6);
+    background-color: rgba(0,0,0,0.8);
     top: 25vw;
     /* width: auto; */
     /* margin-top: -22px; */
